@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+	display:flex;
+	margin-right: -15px;
+}
+
+body{
+	/*background: linear-gradient(to right,rgba(36, 198, 220,0.5), rgba(81, 74, 157,0.7));*/
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+    padding-top:0;
+	color:black;
+	background-color: white;
+    z-index: 12;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+	padding: 35px 100px 0;
+}
+
+
+
+
+header a{
+	color:black;
+}
+
+header nav li {
+	margin: 0 15px;
+}
+a {
+	text-decoration: none;
+	opacity: 0.75;
+}
+
+
+.introduction a.btn {
+	padding: 20px 46px;
+}
+
+header h2 {
+	font-family: "Quicksand", sans-serif;
+
+}
+
+nav{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+}
+
+section{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+.introduction{
+	background: url(../image/main.jpg);
+	/*background: linear-gradient(to right,rgba(36, 198, 220,0.5), rgba(81, 74, 157,0.7)),url(../image/main.jpg);*/
+	background-size: cover;
+	z-index:10;
+	position:relative;
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 200px;
+
+	
+}
+
+.introduction h1 {
+	font: bold 60px "Open Sans", sans-serif;
+	margin-bottom: 20px;
+}
+.introduction .hike {
+	font: normal 28px "Open Sans", sans-serif;
+	margin-bottom: 15px;
+}
+
+.introduction h2 {
+	font: normal 28px "Open Sans", sans-serif;
+	margin-bottom: 60px;
+}
+
+.grid{
+	display: flex;
+	width:100%;
+	flex-wrap: wrap;
+}
+hr{
+	width:250px;
+	height:3px;
+	background-color: #3f51b5;
+	margin-bottom: 50px;
+	border: 0;
+}
+section h2.title{
+	text-transform: capitalize;
+	font:bold 32px "Open Sans",sans-serif;
+    margin-bottom:30px;
+    text-align:center;
+}
+section p{
+	font-family: "Open Sans",sans-serif;
+	max-width: 775px;
+	line-height: 2;
+	padding:0 20px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+
+/*destination section*/
+
+.destination .grid li{
+	height:350px;
+	padding:20px;
+	background-clip:content-box;
+	background-size:cover;
+	background-position: center;
+}
+.destination .grid li.small{
+flex-basis: 30%;
+}
+.destination .grid li.large{
+flex-basis: 70%;
+}
+.one{
+	background-image: url(../image/mountain1.jpg)
+}
+.two{
+	background-image: url(../image/mountain2.jpg)
+}
+.three{
+	background-image: url(../image/mountain3.jpg)
+}
+.four{
+	background-image: url(../image/mountain4.jpg)
+}
+.five{
+	background-image: url(../image/mountain5.jpg)
+}
+.six{
+	background-image: url(../image/mountain6.jpg)
+}
+
+.decks{
+text-align: center;
+background-color: white;
+}
+.cards .one{
+  background-image: url(../image/cooking.jpg);
+
+}
+.cards .two{
+  background-image: url(../image/yoga.jpg);
+}
+
+.cards .three{
+  background-image: url(../image/hiking.jpg);
+}
+.cards{
+  
+  padding:60px;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
+  
+
+}
+.cards .card{
+
+  height: 400px;
+  flex-basis: 30%;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  padding-top: 350px;
+
+  
+}
+
+.cards a{
+	color: 	yellow;
+	font-size:20px;
+	font-family: "Open Sans",sans-serif;
+	font-weight: bold;
+}
+.cards span{
+	background-color: #3f51b5;
+	padding: 10px;
+	border-radius: 10px;
+	opacity:0.8;
+}

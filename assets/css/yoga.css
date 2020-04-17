@@ -1,0 +1,86 @@
+nav{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+input {
+	outline: none;
+	border: none;
+  background: transparent;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent ;
+}
+
+button {
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+iframe {
+	border: none ;
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Contact  ]*/
+.bg-contact {
+  width: 100%;  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../image/yoga-bg.jpg);
+
+  
+}
+.bg-contact h2{
+  font: bold 60px "Quicksand", sans-serif;
+  margin-top: 30px;
+
+}
+.container-contact {
+  text-align: center;
+  width: 100%;  
+  min-height: 100vh;
+  padding: 15px;
+  /*background: rgba(219,21,99,0.8);*/
+  /*background-image: url(../image/bg-contact.jpg);*/
+  background: linear-gradient(45deg, rgba(36, 198, 220,0.5), rgba(81, 74, 157,0.7));
+  
+}
+
+.wrap-contact {
+ 
+  margin-top:30px;
+  width: 70%;
+  background: rgb(255,255,255,0.5);
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 55px 50px 30px 50px;
+  font-family: open-sans,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+font-size: 19.2px;
+line-height: 2em;
+}
+
+
+
+

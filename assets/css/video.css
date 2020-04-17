@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+	display:flex;
+	margin-right: -15px;
+}
+
+body{
+	background: linear-gradient(to right,rgba(36, 198, 220,0.5), rgba(81, 74, 157,0.7));
+
+}
+
+header{
+    padding-top:0;
+	color:black;
+	background-color: white;
+    z-index: 12;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+	padding: 35px 100px 0;
+}
+
+
+
+
+header a{
+	color:black;
+}
+
+header nav li {
+	margin: 0 15px;
+}
+a {
+	text-decoration: none;
+	opacity: 0.75;
+	color: #fff;
+}
+
+a.btn {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background-color: #3f51b5;
+	opacity: 1;
+
+}
+.introduction a.btn {
+	padding: 20px 46px;
+}
+
+header h2 {
+	font-family: "Quicksand", sans-serif;
+
+}
+
+nav{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+}
+
+section{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+.bg-video {
+	background-size:cover;
+	text-align: center;
+	min-height: 100vh; 
+	font-family: Verdana, sans-serif;
+    color:darkgreen;
+    font-weight: bold;
+	}
+section.bg-video h1{
+	font-size: 80px;
+	
+}
+section.bg-video {
+	margin: 0;
+	padding:0;
+}
+
+section h3.title{
+	text-transform: capitalize;
+	font:bold 32px "Open Sans",sans-serif;
+    margin-bottom:30px;
+    text-align:center;
+}
+section p{
+	font-family: "Open Sans",sans-serif;
+	max-width: 775px;
+	line-height: 2;
+	padding:0 20px;
+	margin-bottom: 30px;
+	text-align:center;
+}
+ul.grid {
+	padding-top: 0;
+}
+.clips .grid li.video{
+flex-basis: 70%;
+}
+.clips .grid li.text{
+flex-basis: 30%;
+text-align: center;
+}
+li h1 a{
+	font-family: Verdana, sans-serif;
+	color:darkgreen;
+}
+
+.clips h3 {
+	font: normal 28px "Open Sans", sans-serif;
+	
+}
+hr{
+	width:250px;
+	height:3px;
+	background-color: #3f51b5;
+	margin-bottom: 50px;
+	border: 0;
+}
+section.clips li.text p{
+	font: normal 20px "Open Sans", sans-serif;
+	text-align:justify;
+	line-height: 1;
+}
+
+
+.grid {
+	display: flex;
+	width:100%;
+	flex-wrap: wrap;
+}
+
+video{
+	width:100%
+
+}
+.one:hover{
+	background:linear-gradient(to bottom, rgba(255,255,255,.5), rgba(255,255,255,.0)),url(../image/wildlife.jpg);
+/*background: url(../image/wildlife.jpg);*/
+
+}
+
+.one{
+	background:linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../image/wildlife.jpg);
+	
+}
+.four{
+		background:linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../image/cloud.jpg);
+	
+}
+.four:hover{
+	background:linear-gradient(to bottom, rgba(255,255,255,.5), rgba(255,255,255,.0)),url(../image/cloud.jpg);
+
+}
+.clips .grid li.video{
+	padding:20px;
+	height:450px;
+}
+.clips .grid li.text{
+	height:450px;
+	padding:20px;
+	background-clip:content-box;
+	background-size:cover;
+	background-position: center;
+}
+.clips .grid li.text h1{
+	padding-top: 100px;
+}
+/*packages*/
+.packages .grid li{
+	flex-basis: 50%;
+	padding:50px;
+	text-align: center;
+
+}
+
+.packages .grid li i {
+	color: #8c9eff;
+}
+
+.packages .grid li h4 {
+	font-size: 30px;
+	margin: 25px 0;
+}
+section.packages {
+	background-color: #f5f5f5;
+}

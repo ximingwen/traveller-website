@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Food</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet"  href="assets/css/food.css"> 
+    
+
+
+</head>
+<body>
+
+	<header>
+		<h2>Mountain Travel</h2>
+		<nav>
+			<ul>
+			<li><a href="home.html">Home</a></li>
+      <li><a href="video.html">Video</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+	</header>
+
+	<section class="bg-tour"> 
+	    <h1 class="title">Cuisine</h1>
+  </section>
+
+    <section class="container">
+       
+            <h2 >What do we provide?</h2>
+            <hr>
+    </section>
+<section class="slide">
+  <section class="picture">
+     <img class="mySlides" src="assets/image/food1.jpg" alt="we are trying our best to load food pictures" />
+     <img class="mySlides" src="assets/image/food2.jpg" alt="we are trying our best to load food pictures"/>
+     <img class="mySlides" src="assets/image/food3.jpg" alt="we are trying our best to load food pictures" />
+   </section>
+   <section class="text">
+     <p>Our slow-cooked, bone-in lamb shank combines the bold taste of lamb, the delicate perfume of rosemary, and a ﬁne hint of mint.</p>
+    
+     <p>Silky smooth and flavorful, this salmon sings with lemon sauce. First, we grill premium salmon filets, then slice, then slow-cook them sous vide with a creamy lemon sauce brightened with herbs.</p>
+
+     <p>In German, vollkornbrot means “whole-grain bread,” and the name is apt. One of the hallmark breads of Germany, vollkornbrot is a no-nonsense rye loaf.</p>
+     <p>Sushi is the most famous Japanese dish outside of Japan, and one of the most popular dishes among the Japanese. In Japan, sushi is usually enjoyed on special occasions, such as a celebration.</p>
+
+   </section>
+</section >
+ 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

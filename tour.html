@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tour</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet"  href="assets/css/tour.css"> 
+    
+
+
+</head>
+<body>
+
+	<header>
+		<h2>Mountain Travel</h2>
+		<nav>
+			<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="video.html">Video</a></li>
+      <li><a href="contact.html">Contact</a></li>
+		    </ul>
+		</nav>
+	</header>
+
+	<section class="bg-tour"> 
+
+	    <h1 class="title">Tour Post</h1>
+              
+  		
+    
+  </section>
+  <section class="container">
+       
+            <h2 >Our Guests' Testimony</h2>
+             <hr>
+    </section>
+
+
+<section class="slide">
+  <section class="picture">
+     <img class="mySlides" src="assets/image/hiking1.jpg" alt="we are trying our best to load tour pictures" />
+     <img class="mySlides" src="assets/image/hiking2.jpg" alt="we are trying our best to load tour pictures" />
+     <img class="mySlides" src="assets/image/hiking3.jpg" alt="we are trying our best to load tour pictures" />
+   </section>
+   <section class="text">
+     <p>Natural Bridge is one of the most stunning and unique sites along the Parkway. The 215-foot-tall structure reaches 90 feet across a limestone gorge carved out by Cedar Creek. A longtime attraction, the bridge was once a sacred site of the Monacan Indian tribe of Virginia.</p>
+    
+     <p>In the late 19th century, Moses Cone helmed one of the largest denim empires in the country. Suffering from a frail constitution, and ravaged by decades of stress from running his business, Cone acquired 3,600 acres near the resort town of Blowing Rock, North Carolina, in order to build a mountaintop escape.</p>
+
+     <p>Established in 1997, the Blue Ridge Music Center was built with the mission to celebrate and enshrine the rich musical tradition of the Blue Ridge mountains. The center has an outdoor amphitheater, an indoor theater, and a museum.</p>
+
+   </section>
+</section >
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+ul{
+	list-style: none;
+	display:flex;
+	margin-right: -15px;
+}
+nav{
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+}
+
+
+header{
+    z-index: 12;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:100%;
+	padding: 35px 100px 0;
+}
+
+header a{
+	color:black;
+}
+header nav li {
+	margin: 0 15px;
+}
+a {
+	text-decoration: none;
+	opacity: 0.75;
+	color: #fff;
+}
+a.hover{
+	opacity:1;
+	color: #fff;
+	text-decoration: none;
+}
+a.btn {
+	border-radius: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	background-color: #3f51b5;
+	opacity: 1;
+
+}
+a.click{
+	color:#fff;
+}
+.introduction a.btn {
+	padding: 20px 46px;
+}
+header h2 {
+	font-family: "Quicksand", sans-serif;
+	color: black;
+
+}
+hr{
+	width:250px;
+	height:3px;
+	background-color: #3f51b5;
+
+	border: 0;
+	margin-top: 30px;
+}
+
+
+section{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 80px;
+}
+
+
+.bg-tour {
+	background:linear-gradient(to right, rgba(255,255,255,.5), rgba(255,255,255,.5)),url(../image/food-bg.jpg);
+	background-size:cover;
+	text-align: center;
+	min-height: 100vh; 
+	padding-top: 220px;
+    /*font-family: Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+	/*padding-top: 260px;*/
+	}
+
+section.bg-tour h1.title{
+	color:darkgreen;
+	font: bold 60px "Open Sans", sans-serif;
+}
+
+.mySlides{
+	width:100%;
+	
+}
+.picture{
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	grid-area: picture;
+	
+}
+.text{
+	grid-area:texts;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+.text p{
+	margin:5px;
+}
+
+
+.slide{
+	padding:0;
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-areas: 
+	"picture texts"
+}
+.container{
+
+	text-transform: capitalize;
+    padding-top:100px;
+    padding-bottom:80px;
+    text-align:center;
+}
+.container h2{
+	font:bold 32px "Open Sans",sans-serif;
+}
